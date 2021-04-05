@@ -2,15 +2,32 @@ body{
     min-height: 200px;
     width: 300px;
     background-color: #fafafa !important;
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Nunito', sans-serif !important;
 }
-
+.container{
+    width: 70% !important;
+}
+.instructions{
+    font-size: 14px;
+    font-weight: 600;
+}
+li{
+    list-style-type: none;
+}
 .btn{
     border-radius: 8px;
+    background: #0e0e0e !important;
+    width: 100%;
+    color: #fafafa !important;
+    font-weight: 600 !important;
     
 }
+.btn-crypto a, .btn-git a{
+    width: 100% !important;
+   
+}
 .btn-crypto, .btn-git{
-    padding: 10px;
+    padding: 0 0 5px 0;
 }
 .copy p{
     margin-bottom: 0 !important;

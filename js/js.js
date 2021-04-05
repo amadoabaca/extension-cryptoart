@@ -1,4 +1,4 @@
-function cargarPersonaje() { 
+function cargarImg() { 
     let punk = document.getElementById('punk')
     let code = document.getElementById('code')
     let rdm = Math.floor(Math.random()*(31-1))+1 
@@ -96,4 +96,4 @@ function cargarPersonaje() {
         code.innerHTML = ''
     }
 }
-cargarPersonaje()
+cargarImg()
